@@ -29,7 +29,7 @@ CountdownTimer.prototype = {
 }
 function CDT() {
     var text = '限定サービス終了まであと　';
-    var tl = new Date('2021/05/02 00:00:00');
+    var tl = new Date('2021/06/02 00:00:00');
     var timer = new CountdownTimer('CDT', tl, '終了しました。');
     timer.countDown();
     target = document.getElementById("text");
